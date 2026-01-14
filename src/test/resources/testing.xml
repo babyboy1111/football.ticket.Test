@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="nopCommerce Suite">
+
+    <test name="User Tests 1">
+
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.footballticket.tescase.TC_03_TicketSelection"/>
+        </classes>
+    </test>
+
+</suite>
